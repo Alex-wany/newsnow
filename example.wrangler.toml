@@ -1,8 +1,8 @@
 name = "newsnow"
-pages_build_output_dir = "dist/output/public"
-compatibility_date = "2024-10-03"
+main = "dist/output/server/index.mjs"  # 确保路径正确
+compatibility_date = "2024-03-03"
 
 [[d1_databases]]
-binding = "NEWSNOW_DB"
+binding = "DB"  # 必须与代码中的数据库引用一致
 database_name = "newsnow-db"
-database_id = ""
+database_id = "6c6f3003-d118-4ac2-b090-2cf4f48f6ac9"  # 替换为第一步记录的 ID
