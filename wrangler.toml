@@ -6,3 +6,5 @@ compatibility_date = "2024-03-03"
 binding = "DB"  # 必须与代码中的数据库引用一致
 database_name = "newsnow-db"
 database_id = "6c6f3003-d118-4ac2-b090-2cf4f48f6ac9"  # 替换为第一步记录的 ID
+[vars]
+INIT_TABLE = "true"
